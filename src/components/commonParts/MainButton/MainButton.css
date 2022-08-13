@@ -1,0 +1,95 @@
+button {
+    outline: none !important;
+    border: none;
+    background: transparent;
+}
+
+button:hover {
+    cursor: pointer;
+}
+
+.btn-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.confirm-btn {
+    background: transparent;
+    text-transform: uppercase;
+    padding: 16px 36px;
+    border: 2px solid;
+    border-radius: 32px;
+    transform: translate(0);
+    overflow: hidden;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.confirm-btn-blue::before {
+    content: "";
+    position: absolute;
+    background: #3bd9d9;
+    width: 8px;
+    top: 0;
+    bottom: 0;
+    left: -32px;
+    transform: rotate(-15deg);
+    filter: blur(6px);
+}
+
+
+.play-btn-green::before {
+    content: "";
+    position: absolute;
+    background: #2ad108;
+    width: 8px;
+    top: 0;
+    bottom: 0;
+    left: -32px;
+    transform: rotate(-15deg);
+    filter: blur(6px);
+}
+
+.back-btn-red::before {
+    content: "";
+    position: absolute;
+    background: #ad2710;
+    width: 8px;
+    top: 0;
+    bottom: 0;
+    left: -32px;
+    transform: rotate(-15deg);
+    filter: blur(6px);
+}
+
+.action-btn-grey::before {
+    content: "";
+    position: absolute;
+    background: #999999;
+    width: 8px;
+    top: 0;
+    bottom: 0;
+    left: -32px;
+    transform: rotate(-15deg);
+    filter: blur(6px);
+}
+
+.action-btn-yellow::before {
+    content: "";
+    position: absolute;
+    background: #fecd19;
+    width: 8px;
+    top: 0;
+    bottom: 0;
+    left: -32px;
+    transform: rotate(-15deg);
+    filter: blur(6px);
+}
+
+.confirm-btn:hover::before {
+    left: calc(100% + 32px);
+    transition: 0.75s;
+}
