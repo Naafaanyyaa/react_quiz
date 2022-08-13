@@ -1,6 +1,6 @@
 import React from "react";
-import InputData from "../../InputData/InputData";
-import MainButton from "../../MainButton/MainButton";
+import InputData from "../../commonParts/InputData/InputData";
+import MainButton from "../../commonParts/MainButton/MainButton";
 
 class SignUpPostFotm extends React.Component {
     render() {

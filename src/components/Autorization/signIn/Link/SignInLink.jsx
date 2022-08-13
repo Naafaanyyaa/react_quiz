@@ -9,7 +9,7 @@ class SignInLink extends React.Component {
                                 Don’t have an account?
                             </span>
 
-                <a className="txt2" href="#">
+                <a className="txt2" href="src/components/Autorization/signIn/Link/SignInLink#">
                     Sign Up
                 </a>
             </div>

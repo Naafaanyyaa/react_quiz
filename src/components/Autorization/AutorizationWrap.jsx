@@ -1,7 +1,7 @@
 import React from 'react';
 import './signIn/SignInStyle.css';
 import './signIn/logIn'
-import '../MainButton/MainButton'
+import '../commonParts/MainButton/MainButton'
 import SignInPostFotm from "./signIn/SignInPostForm";
 import SignInLink from "./signIn/Link/SignInLink";
 import SignUpPostFotm from "./SignUp/SignUpPostForm";

@@ -1,6 +1,6 @@
 import React from "react";
-import MainButton from "../../MainButton/MainButton";
-import InputData from "../../InputData/InputData";
+import MainButton from "../../commonParts/MainButton/MainButton";
+import InputData from "../../commonParts/InputData/InputData";
 class SignInPostFotm extends React.Component {
     render() {
         return (<form className="login100-form validate-form" method="post">

@@ -1,7 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom'
 import {Route, Link, BrowserRouter as Router, BrowserRouter} from 'react-router-dom'
-import AutorizationWrap from "./components/commonParts/Autorization/AutorizationWrap";
+import AutorizationWrap from "./components/Autorization/AutorizationWrap";
 
 
 
