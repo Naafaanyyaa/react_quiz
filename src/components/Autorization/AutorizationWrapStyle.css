@@ -199,6 +199,16 @@ h2 {
     gap: 15px;
     padding: 15px 0px;
 }
+.txt1 {
+    font-size: 13px;
+    color: #666666;
+    line-height: 1.5;
+}
 
+.txt2 {
+    font-size: 13px;
+    color: #333333;
+    line-height: 1.5;
+}
 
 

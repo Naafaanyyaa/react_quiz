@@ -1,6 +1,6 @@
 import React from 'react';
-
 import ReactDOM from 'react-dom/client';
+import {Route, Link, BrowserRouter as Router, BrowserRouter, Routes} from 'react-router-dom'
 import './index.css';
 import reportWebVitals from './reportWebVitals';
 import App from "./App";
@@ -10,7 +10,7 @@ import './globalStyles/until.css'
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <App />
+      <App/>
   </React.StrictMode>
 );
 

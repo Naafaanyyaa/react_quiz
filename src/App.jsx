@@ -1,15 +1,18 @@
 import React from 'react';
-import ReactDOM from 'react-dom'
-import {Route, Link, BrowserRouter as Router, BrowserRouter} from 'react-router-dom'
 import AutorizationWrap from "./components/Autorization/AutorizationWrap";
-
+import {BrowserRouter, Route, Routes} from "react-router-dom";
+import SignInPostForm from "./components/Autorization/signIn/SignInPostForm";
+import SignUpPostForm from "./components/Autorization/SignUp/SignUpPostForm";
 
 
 class App extends React.Component {
     render() {
         return (
             <BrowserRouter>
-                <AutorizationWrap />
+                <Routes>
+                    <Route path="/signin" element={<AutorizationWrap page="SignIn"/>} />
+                    <Route path="/signup" element={<AutorizationWrap page="SignUp"/>} />
+                </Routes>
             </BrowserRouter>
         )
     }
