@@ -1,13 +1,12 @@
 import React from 'react';
-import './AutorizationWrapStyle.css';
+import './AuthorizationWrapStyle.css';
 import '../commonParts/MainButton/MainButton';
 import SignInPostForm from "./signIn/SignInPostForm";
 import SignUpPostForm from "./SignUp/SignUpPostForm";
 import {NavLink} from "react-router-dom";
 
 
-
-class AutorizationWrap extends React.Component {
+class AuthorizationWrap extends React.Component {
     render() {
         let data = this.linkSpecification(this.props.page);
         return (
@@ -56,4 +55,4 @@ class AutorizationWrap extends React.Component {
 }
 
 
-export default AutorizationWrap;
+export default AuthorizationWrap;
