@@ -3,5 +3,3 @@ $ dig WWW.NAAFAANYYAA.COM +nostats +nocomments +nocmd
     > WWW.NAAFAANYYAA.COM.              3592    IN      CNAME   Naafaanyyaa.github.io.
     > Naafaanyyaa.github.io.      43192   IN      CNAME    GITHUB-PAGES-SERVER .
     >  GITHUB-PAGES-SERVER .         22      IN      A       192.0.2.1
-
-www.naafaanyyaa.com
